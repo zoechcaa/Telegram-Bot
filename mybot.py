@@ -1,7 +1,8 @@
 import telebot
 import random
+from config import TOKEN
 
-token = ""
+token = TOKEN
 bot = telebot.TeleBot(token)
 
 tasks={}
