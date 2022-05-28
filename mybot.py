@@ -2,8 +2,7 @@ import telebot
 import random
 from config import TOKEN
 
-token = TOKEN
-bot = telebot.TeleBot(token)
+bot = telebot.TeleBot(TOKEN)
 
 tasks={}
 RANDOM_TASKS = ["погладить кота","пойти гулять","прибраться в квартире","полить цветы","проветрить комнату","послушать музыку","посмотреть Веронику Степанову","программировать","сделать зарядку"]
